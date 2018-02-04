@@ -1,0 +1,66 @@
+{
+  "name": "cartlyclient",
+  "version": "0.1.0",
+  "description": "Client-side/frontend logic for CartlyIO.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot --watch-poll --host 0.0.0.0 --config ./webpack.dev.config.js --progress --colors",
+    "build:prod": "BUILD_CLEAN=true webpack --config ./webpack.prod.config.js --progress --profile --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/cartlyio/cartlyclient.git"
+  },
+  "keywords": [
+    "react",
+    "redux"
+  ],
+  "author": "Brendan Evans Ashby",
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/cartlyio/cartlyclient#readme",
+  "devDependencies": {
+    "@types/react": "^16.0.28",
+    "@types/react-dom": "^16.0.3",
+    "@types/react-redux": "^5.0.14",
+    "@types/react-router": "^4.0.19",
+    "@types/react-router-dom": "^4.2.3",
+    "@types/react-router-redux": "^5.0.10",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "favicons-webpack-plugin": "0.0.7",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "html-webpack-template": "^6.1.0",
+    "image-webpack-loader": "^3.4.2",
+    "inline-manifest-webpack-plugin": "^3.0.1",
+    "json-loader": "^0.5.7",
+    "redux-devtools-extension": "^2.13.2",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-chunk-hash": "^0.5.0",
+    "webpack-dev-server": "^2.9.7",
+    "webpack-merge": "^4.1.1",
+    "yaml-loader": "^0.5.0"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "normalize.css": "^7.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-flexbox-grid": "^2.0.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^2.3.0"
+  }
+}
