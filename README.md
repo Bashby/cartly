@@ -1,6 +1,6 @@
 # CartlyIO Client
 
-The client side logic (NodeJS/React) for CartlyIO.
+The client side logic (JavaScript/React) for CartlyIO.
 
 ## Getting started
 
@@ -9,8 +9,8 @@ To get up and running, use one of the following methods to start a local develop
 ### Local Building
 
 In the root of the project:
-`npm install`
-`npm run dev`
+    `npm install`
+    `npm run dev`
 
 ### Docker Building
 > WIP!
