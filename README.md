@@ -1,6 +1,6 @@
-# CartlyIO Client
+# BodegoIO Client
 
-The client side logic (JavaScript/React) for CartlyIO.
+The client side logic (JavaScript/React) for BodegoIO.
 
 ## Getting started
 

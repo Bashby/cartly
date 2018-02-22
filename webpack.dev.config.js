@@ -28,13 +28,13 @@ module.exports = Merge(CommonConfig, {
 			inject: false,
 			template: HtmlWebpackTemplatePlugin,
 			inlineManifestWebpackName: 'webpackManifest',
-			title: 'Shopping Experience | Cartly Alpha',
+			title: 'Shopping Experience | Bodego Alpha',
 			appMountId: "application",
 			mobile: true,
 			meta: [
 				{
 					name: 'description',
-					content: 'CartlyIO Alpha Shopping Experience. Shop for groceries online, pick them up at your convenience.'
+					content: 'BodegoIO Alpha Shopping Experience. Shop for groceries online, pick them up at your convenience.'
 				}
 			],
 			minify: {
